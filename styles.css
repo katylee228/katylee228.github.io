@@ -1,0 +1,64 @@
+body {
+
+  font-family: Palatino;
+  color: black;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+header {
+  background-color: #3cb371;
+  color: #006400;
+  font-size: 150%;
+  padding: 10px 10px 10px 155px;
+  border-style: solid;
+  border-width: medium;
+}
+
+footer 
+{font-family: Georgia;
+  position: absolute;
+}
+
+#leftcolumn
+{float: left;
+width: 150px;
+height: 530px;
+background-color: #66cdaa;
+}
+
+#rightcolumn
+{margin-left: 180px;
+  background-color: white;
+}
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+nav a {text-decoration: none;
+padding: 10px;
+font-weight: bold;}
+
+nav a:link {color: #FFFFFF;}
+nav a:visited {color: #EAEAEA;}
+nav a:hover {color: #000066;}
+
+.red {
+  color: red;
+}
+.form {
+  margin : 10px;
+}
+fieldset {width: 300px;}
+
+.image {
+    background-image: url("fish.jpg");
+    background-color: #cccccc;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
